@@ -3,7 +3,7 @@ rr.restriction_note_type,
 rr.begin, 
 rr.end, 
 note.notes, 
-# archival_object.title
+# archival_object.title,
 npi.persistent_id, 
 rrt.restriction_type_id, 
 enumeration_value.value
