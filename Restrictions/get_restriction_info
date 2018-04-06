@@ -1,0 +1,5 @@
+SELECT rr.archival_object_id, rr.restriction_note_type, rr.begin, rr.end, note.notes, npi.persistent_id
+FROM rights_restriction rr
+LEFT JOIN note on rr.archival_object_id=note.archival_object_id
+LEFT JOIN note_persistent_id npi on note.id=npi.note_id
+WHERE rr.archival_object_id IN () #insert IDs here
