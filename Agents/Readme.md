@@ -1,6 +1,7 @@
 Here are queries for things involving agents. Explanations below.
 
-**MultipleAgentsToResource**
+### MultipleAgentsToResource
+
 This query will allow you to check for a resource that has specific multiple agents you need. The origin of this query were records with incorrectly linked agents/roles for the resource.
 
 _What is going on?_
