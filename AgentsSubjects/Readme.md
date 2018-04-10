@@ -1,4 +1,4 @@
-Here are queries for things involving agents. Explanations below.
+Here are queries for things involving agents and subjects records. Explanations below.
 
 ### MultipleAgentsToResource
 
