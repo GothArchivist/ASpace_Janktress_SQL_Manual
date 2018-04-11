@@ -1,4 +1,5 @@
-SELECT note.notes, resource.title, resource.repo_id, archival_object.title, archival_object.repo_id, resource.repo_id, npi.persistent_id
+SELECT note.notes, resource.title, resource.repo_id, archival_object.title, npi.persistent_id
+# , archival_object.repo_id, resource.repo_id
 #, CONCAT('/repositories/', resource.repo_id, '/resources/', resource.id) AS Resource_URL
 #, CONCAT('/repositories/', archival_object.repo_id, '/archival_objects/', archival_object.id) AS AO_URL
 # Use the above if you need to form the URI for an API update.
