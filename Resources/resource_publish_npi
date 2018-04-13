@@ -1,0 +1,6 @@
+SELECT resource.repo_id, resource.id, resource.publish, note.id, npi.persistent_id
+, CONCAT('/repositories/', resource.repo_id, '/resources/', resource.id) AS uri
+FROM resource
+LEFT JOIN note ON resource.id=note.resource_id
+LEFT JOIN note_persistent_id npi ON note.id=npi.note_id
+WHERE npi.persistent_id IN ()
